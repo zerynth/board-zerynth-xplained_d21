@@ -4,7 +4,7 @@
 
 #define VM_OTA_MAX_VM 1
 #define VM_OTA_MAX_BC 2
-#define VM_OTA_RECORD 0x0001FFC0
+#define VM_OTA_RECORD 0x0003FEC0
 #define VM_OTA_VM_ADDR(idx) (0x00000000)
 #define VM_OTA_BYTECODE(idx) ( ((idx)%(VM_OTA_MAX_BC)) ? (0x0002C000):(0x00018000))
 #define VM_OTA_NEXT_VM_SLOT() (0)
