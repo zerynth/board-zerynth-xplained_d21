@@ -93,6 +93,21 @@ Once connected on a USB port the Xplained Pro Sam D21 device is recognized by Ze
 
 After virtualization, the Xplained Pro Sam D21 is ready to be programmed and the Zerynth scripts **uploaded**. Just **Select** the virtualized device from the "Device Management Toolbar" and **click** the dedicated "upload" button of Zerynth Studio and **reset** the device by pressing the Reset on-board button when asked.
 
+Firmware Over the Air update (FOTA)
+***********************************
+
+The Firmware Over the Air feature allows to update the device firmware at runtime. Zerynth FOTA in the Xplained Pro Sam D21 device is available for bytecode only.
+
+Flash Layout is shown in table below:
+
+=============  =======  =================
+Start address  Size      Content
+=============  =======  =================
+  0x00002000      88Kb   VM Slot
+  0x00018000      80Kb   Bytecode Slot 0
+  0x0002C000      80Kb   Bytecode Slot 1
+=============  =======  =================
+
 Power Management and Secure Firmware
 ************************************
 

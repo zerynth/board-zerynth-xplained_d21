@@ -1,8 +1,8 @@
 {
     "dependencies": {
-        "sys.zerynth.armgcc": "r2.1.1",
-        "sys.zerynth.bossac": "r2.1.1",
-        "vhal.zerynth.armcmx_atmelsamd21": "r2.1.1"
+        "sys.zerynth.armgcc": "r2.1.2",
+        "sys.zerynth.bossac": "r2.1.2",
+        "vhal.zerynth.armcmx_atmelsamd21": "r2.1.2"
     },
     "description": "Add support for Xplained Pro SamD21",
     "fullname": "board.zerynth.xplained_d21",
@@ -21,6 +21,6 @@
     ],
     "repo": "official",
     "title": "Xplained Pro SamD21 Support Package",
-    "version": "r2.1.1",
+    "version": "r2.1.2",
     "whatsnew": " "
 }

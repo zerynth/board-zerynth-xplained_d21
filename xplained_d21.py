@@ -4,7 +4,7 @@ import time
 
 class XplainedProSamD21(Board):
     ids_vendor = {
-        "03EB":frozenset(("2111",))
+        "03EB":frozenset(("2111","2169"))
     }
 
     @staticmethod
