@@ -12,7 +12,8 @@ class XplainedProSamD21(Board):
         return dev["vid"] in XplainedProSamD21.ids_vendor and dev["pid"] in XplainedProSamD21.ids_vendor[dev["vid"]]
 
     def reset(self):
-        pass
+        # hack to reset
+        proc.runcmd("edbg_l21", "-F", "r,1,1", "-t", "atmel_cm0p")
 
     def burn(self,bin,outfn=None):
         fname = fs.get_tempfile(bin)

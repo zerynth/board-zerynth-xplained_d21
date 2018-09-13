@@ -8,7 +8,7 @@
     "family_type":"armcmx",
     "family_name":"atmelsamd21",
     "chip_model":"SAMD21",
-    "manual_reset": 1,
+    "manual_reset": 0,
     "preferred_baud":115200,
     "board_producer":"Atmel",
     "chip_manifacturer":"Atmel",
@@ -29,7 +29,7 @@
     "jtag_chipid_prefix":"0x0080",
     "bytecode_offset":"0x18000",
     "vmstore_offset":"0x17BC0",
-    "uplink_reset": true,
+    "uplink_reset": "reset",
     "reset_time": 2000,
     "vm_mini_chunk":64,
     "has_alter_ego":false,
@@ -40,5 +40,6 @@
         "stopbits":1,
         "dsrdtr":false,
         "rtscts":false
-    }
+    },
+    "crypto_provisioning": "lightweight"
 }
